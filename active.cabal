@@ -44,6 +44,7 @@ custom-setup
 library
   exposed-modules:     Active,
                        Active.Duration
+                       Active.Spline
   other-modules:       Active.Ray
   other-extensions:    FlexibleContexts,
                        FlexibleInstances,
@@ -53,7 +54,8 @@ library
                        bifunctors >= 5.4  && < 5.7,
                        semigroups >= 0.1  && < 0.21,
                        vector     >= 0.10 && < 0.14,
-                       linear     >= 1.14 && < 1.23
+                       linear     >= 1.14 && < 1.23,
+                       matrix
   hs-source-dirs:      src
   default-language:    Haskell2010
 
